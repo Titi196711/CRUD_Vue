@@ -3,7 +3,7 @@
 $result = array('error' => false);
 $action = '';
 
-$conn = new mysqli("localhost", "root", "", "CRUD_VUE");
+$conn = new mysqli("localhost", "root", "", "crud_vue");
 if ($conn->connect_error) {
     die("La connexion a échoué" . $conn->connect_error);
 } else {
